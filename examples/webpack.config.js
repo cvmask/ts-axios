@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const webpack = require('webpack')
 
-module.export = {
+module.exports = {
   mode: 'development',
 
   entry: fs.readdirSync(__dirname).reduce((entries, dir) => {
